@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?>
+
+<cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.config.macosx.lib.debug.1625694204">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.lib.debug.1625694204" moduleId="org.eclipse.cdt.core.settings" name="Debug-MacOSX-Static">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PEngInePSP"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Debug-MacOSX-Static"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PEngInePSP" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.macosx.lib.debug.1625694204" name="Debug-MacOSX-Static" parent="cdt.managedbuild.config.macosx.lib.debug">
+					<folderInfo id="cdt.managedbuild.config.macosx.lib.debug.1625694204." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.lib.debug.411175723" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.lib.debug">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;com.qnx.tools.ide.qde.core.QDEBynaryParser" id="cdt.managedbuild.target.gnu.platform.macosx.lib.debug.1057244711" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.macosx.lib.debug"/>
+							<builder buildPath="${workspace_loc:/PEngInePSP/Debug}" enableAutoBuild="false" id="cdt.managedbuild.target.gnu.builder.macosx.lib.debug.693757683" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="4" superClass="cdt.managedbuild.target.gnu.builder.macosx.lib.debug"/>
+							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.base.1393072194" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base.42820045" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.lib.debug.418624096" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.lib.debug">
+								<option id="gnu.both.asm.option.include.paths.975989193" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1864102379" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.toolmacosx.lib.debug.gnu.archiver.1650118339" name="GCC Archiver" superClass="cdt.managedbuild.toolmacosx.lib.debug.gnu.archiver"/>
+							<tool commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS} `wx-config --cxxflags`" id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.debug.1919422893" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.debug">
+								<option id="gnu.cpp.compiler.macosx.lib.debug.option.optimization.level.1293808053" name="Optimization Level" superClass="gnu.cpp.compiler.macosx.lib.debug.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.macosx.lib.debug.option.debugging.level.203859872" name="Debug Level" superClass="gnu.cpp.compiler.macosx.lib.debug.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.780852984" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.1308013604" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAS_SDL_"/>
+									<listOptionValue builtIn="false" value="_HAS_OPENGL_"/>
+									<listOptionValue builtIn="false" value="_HAS_WX_WIDGETS_"/>
+									<listOptionValue builtIn="false" value="_HAS_SDL_TTF_"/>
+									<listOptionValue builtIn="false" value="_HAS_SDL_IMAGE_"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.other.other.2042592238" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0 -Wno-deprecated" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1304100520" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.debug.824847799" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.debug">
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.macosx.lib.debug.option.optimization.level.1324042899" name="Optimization Level" superClass="gnu.c.compiler.macosx.lib.debug.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.macosx.lib.debug.option.debugging.level.1456084480" name="Debug Level" superClass="gnu.c.compiler.macosx.lib.debug.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.335703251" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1924561991" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/glsl|src/playbook|src/egl2|src/egl1" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.macosx.lib.release.229879745">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.lib.release.229879745" moduleId="org.eclipse.cdt.core.settings" name="Release-MacOSX-Static">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PEngInePSP"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Release"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Release-MacOSX-Static"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PEngInePSP" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="" id="cdt.managedbuild.config.macosx.lib.release.229879745" name="Release-MacOSX-Static" parent="cdt.managedbuild.config.macosx.lib.release">
+					<folderInfo id="cdt.managedbuild.config.macosx.lib.release.229879745." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.macosx.lib.release.713329153" name="MacOSX GCC" superClass="cdt.managedbuild.toolchain.gnu.macosx.lib.release">
+							<targetPlatform binaryParser="org.eclipse.cdt.core.ELF;com.qnx.tools.ide.qde.core.QDEBynaryParser" id="cdt.managedbuild.target.gnu.platform.macosx.lib.release.1002652197" name="Debug Platform" superClass="cdt.managedbuild.target.gnu.platform.macosx.lib.release"/>
+							<builder buildPath="${workspace_loc:/PEngInePSP/Release}" id="cdt.managedbuild.target.gnu.builder.macosx.lib.release.1015050788" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="Gnu Make Builder" superClass="cdt.managedbuild.target.gnu.builder.macosx.lib.release"/>
+							<tool id="cdt.managedbuild.tool.macosx.c.linker.macosx.base.808911506" name="MacOS X C Linker" superClass="cdt.managedbuild.tool.macosx.c.linker.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base.1307237662" name="MacOS X C++ Linker" superClass="cdt.managedbuild.tool.macosx.cpp.linker.macosx.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.macosx.lib.release.1269069730" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.macosx.lib.release">
+								<option id="gnu.both.asm.option.include.paths.1442531009" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/boost-1_37"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIne/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.26262492" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.toolmacosx.lib.release.gnu.archiver.1307191731" name="GCC Archiver" superClass="cdt.managedbuild.toolmacosx.lib.release.gnu.archiver"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.release.1980219887" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.release">
+								<option id="gnu.cpp.compiler.macosx.lib.release.option.optimization.level.1163376755" name="Optimization Level" superClass="gnu.cpp.compiler.macosx.lib.release.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.macosx.lib.release.option.debugging.level.1050105844" name="Debug Level" superClass="gnu.cpp.compiler.macosx.lib.release.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.include.paths.1221239783" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/local/include/boost-1_37"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/PEngIne/src"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1226300467" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.release.996300347" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.release">
+								<option defaultValue="gnu.c.optimization.level.most" id="gnu.c.compiler.macosx.lib.release.option.optimization.level.1268415059" name="Optimization Level" superClass="gnu.c.compiler.macosx.lib.release.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.macosx.lib.release.option.debugging.level.591931264" name="Debug Level" superClass="gnu.c.compiler.macosx.lib.release.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.include.paths.517259253" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="/usr/local/include/boost-1_37"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/PEngIne/src"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.187586507" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463" moduleId="org.eclipse.cdt.core.settings" name="Debug-Linux-Static">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PEngInePSP"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Debug"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Debug-Linux-Static"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PEngInePSP" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="Static link library for Linux" id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463" name="Debug-Linux-Static" parent="cdt.managedbuild.config.macosx.lib.debug">
+					<folderInfo id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.656839461" name="Linux GCC" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;com.qnx.tools.ide.qde.core.QDEBynaryParser" id="cdt.managedbuild.target.gnu.platform.base.240919723" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder buildPath="${workspace_loc:/PEngInePSP/Debug-Linux-Static}" id="cdt.managedbuild.target.gnu.builder.base.1775398457" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="unlimited" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1415539636" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}  `wx-config --cxxflags`" id="cdt.managedbuild.tool.gnu.cpp.compiler.base.317934251" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1196216908" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/include/tcl8.5"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.291120885" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1125016292" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.665571876" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG}${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}  `wx-config --cxxflags`" id="cdt.managedbuild.tool.gnu.c.compiler.base.132989459" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<option id="gnu.c.compiler.option.include.paths.743405429" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/include/tcl8.5"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.712852071" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1726345485" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.1626131680" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.954261374" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.122254637" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.27223602" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<option id="gnu.both.asm.option.include.paths.1145049993" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIne/src}&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/include/tcl8.5"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1851562547" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/playbook" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="PEngIne;cdt.managedbuild.config.gnu.macosx.exe.debug.56226619.348824483.2059068114" factoryId="org.eclipse.cdt.core.cfg.export.settings.sipplier">
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/pEngIne"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PEngIne"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/pEngIne/MacOSX-Static"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/pEngIne/Debug-MacOSX-Static"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngIne/Debug-MacOSX-Static"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngIne/Debug-Linux-Static"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="pEngIne" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PEngIne" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421" moduleId="org.eclipse.cdt.core.settings" name="Debug-MinGW-Static">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PEngInePSP"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Debug-MinGW-Static"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PEngInePSP" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="Static link library for Windows/MinGW" id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421" name="Debug-MinGW-Static" parent="cdt.managedbuild.config.macosx.lib.debug">
+					<folderInfo id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.647757997" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;com.qnx.tools.ide.qde.core.QDEBynaryParser" id="cdt.managedbuild.target.gnu.platform.mingw.base.1223598658" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/PEngInePSP/Debug-MinGW-Static}" id="cdt.managedbuild.target.gnu.builder.base.127561794" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="6" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1998191866" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.1178023380" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Jurgen\Workspace\CPlusPlus\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Jurgen\Workspace\CPlusPlus\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\local\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Jurgen\Workspace\CPlusPlus\boost_1_42_0\include\boost-1_42&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1329278282" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1836033307" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}  `wx-config --cxxflags`" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.607525203" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.include.paths.1007311448" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\local\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.1267755708" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1712286314" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.default" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.738213897" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAS_SDL_"/>
+									<listOptionValue builtIn="false" value="_HAS_SDL_IMAGE_"/>
+									<listOptionValue builtIn="false" value="_HAS_SDL_TTF_"/>
+									<listOptionValue builtIn="false" value="_HAS_WX_WIDGETS_"/>
+									<listOptionValue builtIn="false" value="_HAS_GLSL_"/>
+									<listOptionValue builtIn="false" value="_HAS_OPENGL_"/>
+									<listOptionValue builtIn="false" value="N_HAS_EGL1_"/>
+									<listOptionValue builtIn="false" value="N_HAS_EGL2_"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.2141371160" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef"/>
+								<option id="gnu.cpp.compiler.option.other.other.412291270" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" value="-c -fmessage-length=0" valueType="string"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.729186385" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1866628705" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.1146865105" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\local\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.1966492019" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1751599772" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.max" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.175428893" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" value="false" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.730299184" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.289691494" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.939670179" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/playbook|src/egl2|src/egl1" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+		</cconfiguration>
+		<cconfiguration id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990" moduleId="org.eclipse.cdt.core.settings" name="Release-MinGW-Static">
+				<externalSettings>
+					<externalSetting>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="includePath" name="/PEngInePSP"/>
+						<entry flags="VALUE_WORKSPACE_PATH" kind="libraryPath" name="/PEngInePSP/Release-MinGW-Static"/>
+						<entry flags="RESOLVED" kind="libraryFile" name="PEngInePSP" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+				<extensions>
+					<extension id="com.qnx.tools.ide.qde.core.QDEBynaryParser" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactExtension="a" artifactName="${ProjName}" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.staticLib" buildProperties="org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.debug,org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.staticLib" cleanCommand="rm -rf" description="Static link library for Windows/MinGW" id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990" name="Release-MinGW-Static" parent="cdt.managedbuild.config.macosx.lib.debug">
+					<folderInfo id="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990." name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.mingw.base.1511930674" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF;com.qnx.tools.ide.qde.core.QDEBynaryParser" id="cdt.managedbuild.target.gnu.platform.mingw.base.1737262089" name="Debug Platform" osList="win32" superClass="cdt.managedbuild.target.gnu.platform.mingw.base"/>
+							<builder buildPath="${workspace_loc:/PEngInePSP/Debug-MinGW-Static}" id="cdt.managedbuild.target.gnu.builder.base.1568266279" keepEnvironmentInBuildfile="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="6" superClass="cdt.managedbuild.target.gnu.builder.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.mingw.base.1498509083" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.base">
+								<option id="gnu.both.asm.option.include.paths.1189564046" name="Include paths (-I)" superClass="gnu.both.asm.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Jurgen\Workspace\CPlusPlus\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Jurgen\Workspace\CPlusPlus\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\local\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\Users\Jurgen\Workspace\CPlusPlus\boost_1_42_0\include\boost-1_42&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.394763523" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.210359350" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base"/>
+							<tool commandLinePattern="${COMMAND} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT} ${INPUTS}  `wx-config --cxxflags`" id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1343194413" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base">
+								<option id="gnu.cpp.compiler.option.include.paths.305039311" name="Include paths (-I)" superClass="gnu.cpp.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\local\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.optimization.level.1465422832" name="Optimization Level" superClass="gnu.cpp.compiler.option.optimization.level" value="gnu.cpp.compiler.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.debugging.level.1188192057" name="Debug Level" superClass="gnu.cpp.compiler.option.debugging.level" value="gnu.cpp.compiler.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.cpp.compiler.option.preprocessor.def.2066597750" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" valueType="definedSymbols">
+									<listOptionValue builtIn="false" value="_HAS_SDL_"/>
+									<listOptionValue builtIn="false" value="_HAS_SDL_IMAGE_"/>
+									<listOptionValue builtIn="false" value="_HAS_SDL_TTF_"/>
+									<listOptionValue builtIn="false" value="_HAS_WX_WIDGETS_"/>
+									<listOptionValue builtIn="false" value="_HAS_GLSL_"/>
+									<listOptionValue builtIn="false" value="_HAS_OPENGL_"/>
+									<listOptionValue builtIn="false" value="N_HAS_EGL1_"/>
+									<listOptionValue builtIn="false" value="N_HAS_EGL2_"/>
+								</option>
+								<option id="gnu.cpp.compiler.option.preprocessor.undef.61908022" name="Undefined symbols (-U)" superClass="gnu.cpp.compiler.option.preprocessor.undef"/>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1303455665" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1794551340" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.base">
+								<option id="gnu.c.compiler.option.include.paths.1565852104" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngInePSP/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/PEngIneCore/src}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\local\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;C:\MinGW\msys\1.0\include\SDL&quot;"/>
+									<listOptionValue builtIn="false" value="/usr/local/include/SDL"/>
+									<listOptionValue builtIn="false" value="/usr/X11/include"/>
+								</option>
+								<option defaultValue="gnu.c.optimization.level.none" id="gnu.c.compiler.option.optimization.level.31520195" name="Optimization Level" superClass="gnu.c.compiler.option.optimization.level" value="gnu.c.optimization.level.most" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.debugging.level.1035039808" name="Debug Level" superClass="gnu.c.compiler.option.debugging.level" value="gnu.c.debugging.level.none" valueType="enumerated"/>
+								<option id="gnu.c.compiler.option.preprocessor.preprocess.696469112" name="Preprocess only (-E)" superClass="gnu.c.compiler.option.preprocessor.preprocess" value="false" valueType="boolean"/>
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.335782577" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.base.1204738478" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base.1428161450" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.base"/>
+						</toolChain>
+					</folderInfo>
+					<sourceEntries>
+						<entry excluding="src/playbook|src/egl2|src/egl1" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+					</sourceEntries>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+			<storageModule moduleId="org.eclipse.cdt.core.language.mapping"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="PEngInePSP.cdt.managedbuild.target.macosx.lib.940696015" name="Static Library" projectType="cdt.managedbuild.target.macosx.lib"/>
+	</storageModule>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Debug-Playbook-Static">
+			<resource resourceType="PROJECT" workspacePath="/PEngInePSP"/>
+		</configuration>
+		<configuration configurationName="Release-MinGW-Static">
+			<resource resourceType="PROJECT" workspacePath="/PEngInePSP"/>
+		</configuration>
+		<configuration configurationName="Debug-MinGW-Static">
+			<resource resourceType="PROJECT" workspacePath="/PEngInePSP"/>
+		</configuration>
+		<configuration configurationName="Release-MacOSX-Static">
+			<resource resourceType="PROJECT" workspacePath="/PEngInePSP"/>
+		</configuration>
+		<configuration configurationName="Debug-MacOSX-Static">
+			<resource resourceType="PROJECT" workspacePath="/PEngInePSP"/>
+		</configuration>
+		<configuration configurationName="Debug-Linux-Static">
+			<resource resourceType="PROJECT" workspacePath="/PEngInePSP"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.internal.ui.text.commentOwnerProjectMappings"/>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.2022992151">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="com.qnx.tools.ide.qde.managedbuilder.core.qccScannerInfo"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204;cdt.managedbuild.config.macosx.lib.debug.1625694204.2124741354;cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.debug.1632101315;cdt.managedbuild.tool.gnu.c.compiler.input.847103852">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1866628705;cdt.managedbuild.tool.gnu.c.compiler.input.730299184">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.release.229879745;cdt.managedbuild.config.macosx.lib.release.229879745.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.release.1980219887;cdt.managedbuild.tool.gnu.cpp.compiler.input.1226300467">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204;cdt.managedbuild.config.macosx.lib.debug.1625694204.;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.debug.1919422893;cdt.managedbuild.tool.gnu.cpp.compiler.input.1304100520">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.;cdt.managedbuild.tool.gnu.cpp.compiler.base.317934251;cdt.managedbuild.tool.gnu.cpp.compiler.input.665571876">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204;cdt.managedbuild.config.macosx.lib.debug.1625694204.;cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.debug.824847799;cdt.managedbuild.tool.gnu.c.compiler.input.1924561991">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.;cdt.managedbuild.tool.gnu.cpp.compiler.base.194746279;cdt.managedbuild.tool.gnu.cpp.compiler.input.780936474">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.1343194413;cdt.managedbuild.tool.gnu.cpp.compiler.input.1303455665">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.;cdt.managedbuild.tool.gnu.c.compiler.base.132989459;cdt.managedbuild.tool.gnu.c.compiler.input.1626131680">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1209336444;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1209336444.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.837744852;cdt.managedbuild.tool.gnu.cpp.compiler.input.1198450927">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.release.229879745;cdt.managedbuild.config.macosx.lib.release.229879745.;cdt.managedbuild.tool.gnu.c.compiler.macosx.lib.release.996300347;cdt.managedbuild.tool.gnu.c.compiler.input.187586507">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1209336444;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1209336444.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1764947502;cdt.managedbuild.tool.gnu.c.compiler.input.1707155576">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204;cdt.managedbuild.config.macosx.lib.debug.1625694204.2124741354;cdt.managedbuild.tool.gnu.cpp.compiler.macosx.lib.debug.1949384258;cdt.managedbuild.tool.gnu.cpp.compiler.input.1729325381">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.1293103990.;cdt.managedbuild.tool.gnu.c.compiler.mingw.base.1794551340;cdt.managedbuild.tool.gnu.c.compiler.input.335782577">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.;cdt.managedbuild.tool.gnu.c.compiler.base.1187921948;cdt.managedbuild.tool.gnu.c.compiler.input.401607814">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileC"/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421;cdt.managedbuild.config.macosx.lib.debug.1625694204.656227463.95720421.;cdt.managedbuild.tool.gnu.cpp.compiler.mingw.base.607525203;cdt.managedbuild.tool.gnu.cpp.compiler.input.729186385">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId="org.eclipse.cdt.managedbuilder.core.GCCManagedMakePerProjectProfileCPP"/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+</cproject>
