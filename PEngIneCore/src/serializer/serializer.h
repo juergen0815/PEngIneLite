@@ -1,17 +1,10 @@
 /************************************************************************/
-/* pei::Engine (©)Copyright 2009-12 Jürgen Schober                      */
+/* pei::EngineLite (©)Copyright 2009-12 Jürgen Schober                  */
 /*                                                                      */
 /* This Software is distributed as Freeware. It may be copied and       */
 /* distributed (even as a companion to a commercial product) as long as */
 /* the archive stays complete. No further agreement is necessary.       */
 /************************************************************************/
-
-/*
- * serializer.h
- *
- *  Created on: Jul 4, 2012
- *      Author: Jurgen
- */
 
 #ifndef SERIALIZER_H_
 #define SERIALIZER_H_

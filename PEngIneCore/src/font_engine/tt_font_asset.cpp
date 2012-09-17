@@ -1,5 +1,5 @@
 /************************************************************************/
-/* pei::Engine (ï¿½)Copyright 2009-11 Jï¿½rgen Schober                      */
+/* pei::EngineLite (©)Copyright 2009-12 Jürgen Schober                  */
 /*                                                                      */
 /* This Software is distributed as Freeware. It may be copied and       */
 /* distributed (even as a companion to a commercial product) as long as */
@@ -14,12 +14,6 @@
 
 #include <render/render_surface.h>
 #include <video/blitter.h>
-
-// TODO: This has to go
-#ifdef _HAS_SDL_TTF_
-#include <SDL_ttf.h>
-#include <SDL/sdl_surface.h>
-#endif
 
 #include <utils/utils.h>
 

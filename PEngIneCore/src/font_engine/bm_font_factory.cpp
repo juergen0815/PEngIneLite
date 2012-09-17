@@ -1,11 +1,10 @@
 /************************************************************************/
-/* pei::Engine (Â©)Copyright 2009-11 JÃ¼rgen Schober                      */
+/* pei::EngineLite (©)Copyright 2009-12 Jürgen Schober                  */
 /*                                                                      */
 /* This Software is distributed as Freeware. It may be copied and       */
 /* distributed (even as a companion to a commercial product) as long as */
 /* the archive stays complete. No further agreement is necessary.       */
 /************************************************************************/
-
 
 #include "bm_font_factory.h"
 #include "bm_font_asset.h"

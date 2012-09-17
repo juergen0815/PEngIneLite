@@ -1,9 +1,10 @@
-/*
- * rnd_zoom_widget.cpp
- *
- *  Created on: Jan 7, 2012
- *      Author: Jurgen
- */
+/************************************************************************/
+/* pei::EngineLite (©)Copyright 2009-12 Jürgen Schober                  */
+/*                                                                      */
+/* This Software is distributed as Freeware. It may be copied and       */
+/* distributed (even as a companion to a commercial product) as long as */
+/* the archive stays complete. No further agreement is necessary.       */
+/************************************************************************/
 
 #include "drawable.h"
 
